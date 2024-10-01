@@ -1,4 +1,7 @@
 const db = require('../config/db');
+const express = require('express');
+const router = express.Router();
+
 
 // Fetch questions with their answers
 const getQuestionsWithAnswers = async (req, res) => {
